@@ -2,7 +2,7 @@
 :email: Sistema básico de envio de email
 
 ## como usar
-```
+```php
 <?php
 require 'vendor/autoload';
 $cfg=[
