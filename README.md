@@ -4,7 +4,7 @@
 ## como usar
 ```php
 <?php
-require 'vendor/autoload';
+require 'vendor/autoload.php';
 $cfg=[
     'server'=>'servidor smtp',
     'user'=>'usuário',
