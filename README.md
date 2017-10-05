@@ -6,12 +6,12 @@
 <?php
 require 'vendor/autoload';
 $cfg=[
-'server'=>'servidor smtp',
-'user'=>'usuário',
-'password'=>'senha',
-'port'=>'porta ssl',
-'from'=>'email do remetende',
-'name'=>'nome do remetente'
+    'server'=>'servidor smtp',
+    'user'=>'usuário',
+    'password'=>'senha',
+    'port'=>'porta ssl',
+    'from'=>'email do remetende',
+    'name'=>'nome do remetente'
 ];
 $mail=new Mail($cfg);
 if($mail->send($to,$html,$txt)){
