@@ -1,0 +1,14 @@
+{
+    "name": "basic/mail",
+    "description": "Sistema b\u00e1sico de envio de email",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Basic\\": "/src"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
