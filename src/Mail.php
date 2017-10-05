@@ -14,7 +14,7 @@ class Mail{
         $this->mail->Port = $cfg['port'];
         $this->mail->setFrom($cfg['from'], $cfg['name']);
     }
-    function send($from,$to,$subject,$html,$plain=false){
+    function send($to,$subject,$html,$plain=false){
         $this->mail->isHTML(true);
         $this->mail->Subject = $subject;
         $this->mail->Body    = $html;
