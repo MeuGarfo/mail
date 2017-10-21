@@ -38,7 +38,7 @@ class Mail
     * @param  mixed $plain    Mensagem em plain-text
     * @return bool            Retorna true ou false
     */
-    public function send(string $to, string $subject, string $html, string $plain=null):bool
+    public function send(string $to, string $subject, string $html, string $plain=null)
     {
         $this->mail->isHTML(true);
         $this->mail->Subject = $subject;
